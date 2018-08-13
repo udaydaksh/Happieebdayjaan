@@ -1,0 +1,233 @@
+html,body{
+  margin:0px;
+  padding: 0px;
+
+  height:100%;
+  
+}
+
+img {
+    max-width: 80%;
+}
+
+#navi{
+  font-family:  'Luckiest Guy', cursive;
+  font-size: 30px;
+}
+
+#navpill{
+  height:auto;
+  color:rgb(214, 54, 233);
+    -webkit-box-shadow: 5px 5px 5px rgb(34, 40, 32);
+    -moz-box-shadow:    5px 5px 5px rgb(34, 40, 32);
+    box-shadow:         5px 5px 5px rgb(34, 40, 32);
+    z-index:999;
+  }
+
+
+
+.cover{
+  background: #222 url('img/audi.jpg')center center no-repeat;
+  background-size:cover;
+  color:black;
+  height:800px;
+  text-align: center;
+  display :flex;
+  align-items: center;
+  opacity: 10%;
+
+}
+#cover-caption{
+  width:100%;
+}
+#form{
+  align-content: center;
+}
+
+
+#niki{
+  font-family:'Just Another Hand',cursive;
+
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+#wishes{
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-top: 50px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+
+}
+@keyframes example {
+    from {color: black;}
+    to {color: white;}.carousel-indicators
+}
+
+.sec_1_p1{
+  color:violet
+  ;
+  font-family:  'Amatic SC', cursive;
+  font-size: 40px;
+
+}
+
+
+#ammu{
+  height: 600px;
+  background: #222 url(img/Biriyani.jpg) center center no-repeat ;
+
+}
+.col-1{
+
+  padding-top: 270px;
+
+}
+
+#pg2{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Frijole', cursive;
+  color:rgb(8, 132, 212);
+}
+
+.pg2{
+  text-align: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 60px;
+  color: black;
+  font-weight: 600;
+
+}
+
+#ammu1{
+  height: 800px;
+  background: #222 url(img/almond.jpg) center center no-repeat ;
+
+}
+.col-2{
+
+  padding-top: 270px;
+
+}
+
+#pg3{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Monoton', cursive;
+  color: rgb(37, 228, 205);
+}
+
+.pg3{
+  text-align: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 60px;
+  color:black;
+  font-weight: 600;
+}
+
+#pg4{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  font-family:'Ultra', serif;
+  color: rgb(242, 38, 38);
+}
+
+.pg4{
+  text-align: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 60px;
+  color: black;
+  font-weight: 600;
+
+}
+
+#ammu2{
+  height: 800px;
+  background: #222 url(img\bg3.jpg) center center no-repeat ;
+
+}
+.col-3{
+
+  padding-top: 270px;
+
+}
+
+.carousel-indicators li {
+    display: inline-block;
+
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color:black;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators .active {
+
+    background-color: white;
+}
+
+.carousel-inner h3
+{
+  color:rebeccapurple;
+  font-family:'Gloria Hallelujah', cursive;
+  box-shadow: 40px;
+}
+
+.carousel-inner p
+{
+  font-size: 30px;
+  font-family: 'Chewy', sans-serif;
+  color:green;
+
+}
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: rgb(27, 29, 25);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: rgb(219, 81, 231);
+}
+
+
+#own{
+  height: auto;
+  background: #222 url(img/ownbg.jpg) center center no-repeat ;
+
+
+}
+
+#nik{
+
+  transform: scale(0.8);
+  box-shadow: 10px,
+}
+
+.vin{
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 20px;
+    padding: 2.5rem 0;
+    font-family: 'Wire One', sans-serif;
+}
+
+.icons li
+{
+  font-size: 20px;
+}
